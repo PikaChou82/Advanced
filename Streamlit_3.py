@@ -4,6 +4,8 @@ import  streamlit_authenticator  as  stauth
 import  yaml 
 from  yaml.loader  import  SafeLoader
 
+st.set_page_config(page_title="Mon appikachou 4", page_icon=":bar_chart:")
+
 with open("authentificate.yaml") as file:
    config  =  yaml.load(file ,  Loader = SafeLoader )
 
