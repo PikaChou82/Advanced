@@ -42,7 +42,7 @@ with st.sidebar:
 
 if selected == "Accueil" and st.session_state['authentication_status']:
     st.write(
-    '<p style="font-family: Arial; color: black; font-size: 15px;">'
+    '<p style="font-family: Arial;  font-size: 15px;">'
     "On est sur la page d'accueil. Pour l'instant, il y a peu de choses dessus si ce n'est quelques infos sur moi et pourquoi cette page :)"
     '</p>',
     unsafe_allow_html=True   
@@ -53,20 +53,20 @@ if selected == "Accueil" and st.session_state['authentication_status']:
     st.write("")
     st.write("")
     st.write(
-    '<p style="font-family: Arial; color: black; font-size: 15px;">'
+    '<p style="font-family: Arial; font-size: 15px;">'
     "Bon j'ai 42 ans (bientôt 43...), maman de deux garçons géniaux, femme d'un mari génial... et bref ! ça va :)"
     '</p>',
     unsafe_allow_html=True   
 )
     st.write("")
     st.write(
-    '<p style="font-family: Arial; color: black; font-size: 15px;">'
+    '<p style="font-family: Arial; font-size: 15px;">'
     "Pourquoi cette page ? Bonne question... Après 20 au service de la finance et des actionnaires, j'ai sauté le pas de la reconversion et me voici en train de me former à la data !"
     '</p>',
     unsafe_allow_html=True   
 )
     st.write(
-    '<p style="font-family: Arial; color: black; font-size: 15px;">'
+    '<p style="font-family: Arial;  font-size: 15px;">'
     "Quelle histoire hein ? Alors trois infos sur moi (y en a une de fausse, si tu trouves je t'offre un cadeau) : <br>"
     f"- <i class='fas fa-syringe'></i> Mon premier stage était à 10 ans dans un cabinet vétérinaire<br>"
     f"- <i class='fas fa-mountain'></i> Mon sport préféré est la varappe<br>"
@@ -78,7 +78,7 @@ if selected == "Accueil" and st.session_state['authentication_status']:
         
 elif selected == "Photos" and st.session_state['authentication_status']:
     st.write(
-    '<p style="font-family: Arial; color: black; font-size: 15px;">'
+    '<p style="font-family: Arial;  font-size: 15px;">'
     "Voici quelques photos de mon voyage au Japon :)"
     '</p>',
     unsafe_allow_html=True   
