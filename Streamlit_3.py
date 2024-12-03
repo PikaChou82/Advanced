@@ -11,6 +11,7 @@ with  open ('C:/Users/sauss/OneDrive/Saussaye Family/Audrey\Data_Analyst/2_API_R
 # Pré-hachage de tous les mots de passe en texte brut une fois 
 # stauth.Hasher.hash_passwords(config['credentials'])
 
+st.write("Test me with PikaChou82 and WCS on password")
 authenticator  =  stauth . Authenticate ( 
     config ['credentials'], 
     config ['cookie']['name'], 
