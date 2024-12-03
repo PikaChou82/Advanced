@@ -85,7 +85,6 @@ elif selected == "Photos" and st.session_state['authentication_status']:
     st.write("")
     st.write("")
     col1, col2, col3 = st.columns([5, 5,5])
-    # Afficher le logo dans la première colonne (à droite)
     with col1:
         st.image(f'https://raw.githubusercontent.com/PikaChou82/Advanced/refs/heads/main/Images/1.jpg', width=150)
         st.image(f'https://raw.githubusercontent.com/PikaChou82/Advanced/refs/heads/main/Images/2.jpg', width=150)
