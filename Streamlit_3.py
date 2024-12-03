@@ -5,7 +5,7 @@ import  streamlit_authenticator  as  stauth
 import  yaml 
 from  yaml.loader  import  SafeLoader
 
-with  open ('C:/Users/sauss/OneDrive/Saussaye Family/Audrey\Data_Analyst/2_API_REST/Quêtes/Streamlit_3_Advanced/authentificate.yaml')  as  file : 
+with  open ('https://raw.githubusercontent.com/PikaChou82/Advanced/refs/heads/main/authentificate.yaml')  as  file : 
     config  =  yaml.load(file ,  Loader = SafeLoader )
 
 # Pré-hachage de tous les mots de passe en texte brut une fois 
