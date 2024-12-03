@@ -1,0 +1,25 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    pikachou82:
+      connected_in: false
+      email: audrey.saussaye@gmail.com
+      failed_login_attempts: 0
+      logged_in: true
+      name: Audrey Saussaye
+      password: $2b$12$LQIRGOm.Jwo48eX/PMUDNu1E/bf3/oIxPuGKQGC6/B8Bjw2ou/ceW
+      roles:
+      - admin
+      - editor
+      - viewer
+    shinji02000:
+      connected_in: false
+      email: o.saussaye@gmail.com
+      failed_login_attempts: 0
+      name: Olivier Saussaye
+      password: $2b$12$ynCRuYAGT3l/s.0aMqq5Rua/dx2AjBPEKAbdiDVAcvZk1ivlS8cAy
+      roles:
+      - viewer
