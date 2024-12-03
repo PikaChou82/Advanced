@@ -1,13 +1,12 @@
 import  streamlit  as  st 
 from streamlit_option_menu import option_menu
 import  streamlit_authenticator  as  stauth
-import os
 import  yaml 
 from  yaml.loader  import  SafeLoader
 
-yaml_file_path = os.path.join("https://raw.githubusercontent.com/PikaChou82/Advanced/refs/heads/main/","authentificate.yaml")  
-with open(yaml_file_path, 'r') as file:
-    config  =  yaml.load(file ,  Loader = SafeLoader )
+yaml_file_path = "https://raw.githubusercontent.com/PikaChou82/Advanced/refs/heads/main/authentificate.yaml")  
+with open(yaml_file_path) as file:
+   config  =  yaml.load(file ,  Loader = SafeLoader )
 
 # Pré-hachage de tous les mots de passe en texte brut une fois 
 # stauth.Hasher.hash_passwords(config['credentials'])
