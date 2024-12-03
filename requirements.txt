@@ -1,3 +1,4 @@
+streamlit_authenticator
 streamlit
 pandas
 seaborn
